@@ -33,12 +33,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install build
 
-      - name: Clean Previous Builds
-        run: rm -rf dist
-
-      - name: Ensure dist Directory Exists
-        run: mkdir -p dist
-
       - name: Build package
         run: |
           python -m build

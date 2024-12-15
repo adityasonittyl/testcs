@@ -4,6 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 version = "0.0.1"
+name = "testcs"
 
 
 authors = [
